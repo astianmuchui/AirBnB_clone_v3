@@ -2,8 +2,11 @@
 
 """
 Index file for views
+Here all the api routes are stored
+and defined
 """
 
+from flask import jsonify
 from api.v1.views import app_views
 
 @app_views.route('/status', strict_slashes=False)

@@ -2,6 +2,12 @@
 
 """
 AirnB clone - RESTful API
+This file declares the Flask
+application object
+and registers blueprints from views
+
+Additionally, it handles teardown
+of the SQLAlchemy ORM and runs the app
 """
 
 from flask import Flask
